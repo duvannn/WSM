@@ -1,5 +1,5 @@
 function matrix  =  SVD(file)
-    % the method removes the first rd dimensions 
+    % this method performes svd on a sparse matrix read from file
     mat = load(strcat(file,'.mat'));
     i=double(mat.i);
     j=double(mat.j);
